@@ -115,6 +115,13 @@ scroll = normal
   padding: 6px;
   margin-top: 30px;
 }
+.ptext a {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  padding: 6px;
+  margin-top: 30px;
+}
 
 .ptext .border.trans {
   background-color: transparent;
