@@ -128,14 +128,7 @@ scroll = normal
 }
 
 @media (max-width: 768px) {
-  .pimg1 video {
-    display: none;
-  }
-  .pimg1 {
-    background-image: url("../img/giphy1.gif");
-    width: 100%;
-    min-height: 500px;
-  }
+  
 
   .pimg2,
   .pimg3,
