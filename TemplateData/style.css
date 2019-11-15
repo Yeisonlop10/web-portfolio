@@ -127,13 +127,12 @@ scroll = normal
   background-color: transparent;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 736px) {
   .pimg1 video {
     display: none;
   }
   .pimg1 {
     background-image: url("../img/bacres.png");
-    width: 100%;
     min-height: 500px;
   }
 
