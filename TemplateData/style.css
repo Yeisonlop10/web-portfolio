@@ -148,7 +148,9 @@ scroll = normal
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
- 
+  .pimg1 video {
+    min-height: 600 px;
+  }
   .pimg1,
   .pimg2,
   .pimg3,
