@@ -35,7 +35,7 @@ scroll = normal
 
 .pimg1 video {
   width: 100%;
-  min-height: 100%;
+  min-height: 600px;
 }
 
 .pimg2 {
