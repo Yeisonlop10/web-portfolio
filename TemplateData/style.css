@@ -174,7 +174,9 @@ nav a#openup {
     background-image: url("../img/bacres.png");
     min-height: 500px;
   }
-
+  .ugame {
+    display: none;
+  }
   .pimg2,
   .pimg3,
   .pimg4,
