@@ -47,9 +47,6 @@ nav a#openup {
   width: 100%;
 }
 
-.flygame {
-  display: none;
-}
 
 .pimg1,
 .pimg2,
@@ -165,86 +162,6 @@ nav a#openup {
   background-color: transparent;
 }
 
-@media screen and (max-width: 580px) {
-  .hide-on-small {
-    display: none;
-  }
-  .pimg1 video {
-    display: none;
-  }
-  .pimg1 {
-    background-image: url("../img/bacres.png");
-    min-height: 500px;
-  }
-  .ugame {
-    display: none;
-  }
-  .flygame {
-    display: block;
-  }
-  .pimg2,
-  .pimg3,
-  .pimg4,
-  .pimg5 {
-    background-attachment: scroll;
-  }
-  nav {
-    height: auto;
-    border-bottom: 0;
-  }
-  nav ul {
-    display: none;
-    height: auto;
-  }
-  nav li {
-    width: 100%;
-    float: left;
-    position: relative;
-  }
-  nav a {
-    text-align: left;
-    width: 100%;
-    text-indent: 25px;
-    background: #333;
-    border-bottom: 1px solid #555;
-  }
-  nav a:hover {
-    background: #444;
-  }
-  nav a#openup:after {
-    content: "|||";
-    transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    /* IE 9 */
-    -webkit-transform: rotate(-90deg);
-    /* Safari and Chrome */
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    position: absolute;
-    right: 5px;
-    top: 20px;
-  }
-  nav a#openup {
-    display: block;
-    background-color: #333;
-    width: 100%;
-    position: relative;
-  }
-
-  .cf:before,
-  .cf:after {
-    content: "";
-    display: table;
-  }
-
-  .cf:after {
-    clear: both;
-  }
-
-  .cf {
-    zoom: 1;
-  }
 
   @media (max-width: 736px) {
     .pimg1 video {
@@ -252,19 +169,20 @@ nav a#openup {
     }
     .pimg1 {
       background-image: url("../img/bacres.png");
-      min-height: 500px;
-    }
-    .ugame {
-      display: none;
-    }
-    .flygame {
-      display: inline-block;
+      /*min-height: 500px;*/
     }
     .pimg2,
     .pimg3,
     .pimg4,
     .pimg5 {
       background-attachment: scroll;
+    }
+
+    .ptext{
+      font-size: large;
+    }
+    .ptext h1{
+      font-size: medium;
     }
 
     nav {
@@ -290,27 +208,14 @@ nav a#openup {
     nav a:hover {
       background: #444;
     }
-    nav a#openup:after {
-      content: "|||";
-      transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-      /* IE 9 */
-      -webkit-transform: rotate(-90deg);
-      /* Safari and Chrome */
-      width: 30px;
-      height: 30px;
-      display: inline-block;
-      position: absolute;
-      right: 5px;
-      top: 20px;
-    }
+    
     nav a#openup {
       display: block;
       background-color: #333;
       width: 100%;
       position: relative;
     }
-  }
+  
   .cf:before,
   .cf:after {
     content: "";
@@ -324,14 +229,12 @@ nav a#openup {
   .cf {
     zoom: 1;
   }
-
-  .webgl-content {
-    display: none;
-  }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+@media only screen and (min-device-width: 736px) and (max-device-width: 1024px) {
   .pimg1 video {
-    min-height: 200%;
+    width: 100%;
+    height: auto;
   }
 
   .pimg1,
@@ -340,93 +243,5 @@ nav a#openup {
   .pimg4,
   .pimg5 {
     background-attachment: scroll;
-  }
-  .webgl-content {
-    display: none;
-  }
-
-  .webgl-content * {
-    border: 0;
-    margin: 0;
-    padding: 0;
-  }
-  .webgl-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-
-  .webgl-content .logo,
-  .progress {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-  .webgl-content .logo {
-    background: url("progressLogo.Light.png") no-repeat center / contain;
-    width: 154px;
-    height: 130px;
-  }
-  .webgl-content .progress {
-    height: 18px;
-    width: 141px;
-    margin-top: 90px;
-  }
-  .webgl-content .progress .empty {
-    background: url("progressEmpty.Light.png") no-repeat right / cover;
-    float: right;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-  }
-  .webgl-content .progress .full {
-    background: url("progressFull.Light.png") no-repeat left / cover;
-    float: left;
-    width: 0%;
-    height: 100%;
-    display: inline-block;
-  }
-
-  .webgl-content .logo.Dark {
-    background-image: url("progressLogo.Dark.png");
-  }
-  .webgl-content .progress.Dark .empty {
-    background-image: url("progressEmpty.Dark.png");
-  }
-  .webgl-content .progress.Dark .full {
-    background-image: url("progressFull.Dark.png");
-  }
-
-  .webgl-content .footer {
-    margin-top: 5px;
-    height: 38px;
-    line-height: 38px;
-    font-family: Helvetica, Verdana, Arial, sans-serif;
-    font-size: 18px;
-  }
-  .webgl-content .footer .webgl-logo,
-  .title,
-  .fullscreen {
-    height: 100%;
-    display: inline-block;
-    background: transparent center no-repeat;
-  }
-  .webgl-content .footer .webgl-logo {
-    background-image: url("webgl-logo.png");
-    width: 204px;
-    float: left;
-  }
-  .webgl-content .footer .title {
-    margin-right: 10px;
-    float: right;
-  }
-  .webgl-content .footer .fullscreen {
-    background-image: url("fullscreen.png");
-    width: 38px;
-    float: right;
   }
 }
