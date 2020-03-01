@@ -47,6 +47,9 @@ nav a#openup {
   width: 100%;
 }
 
+.pimg1 {
+  max-height: 700px;
+}
 
 .pimg1,
 .pimg2,
@@ -168,9 +171,9 @@ nav a#openup {
       display: none;
     }
     .pimg1 {
-      background-image: url("../img/bacres.png");
-      size: auto;
+      background-image: url("../img/Trabajo.jpg");
     }
+    .pimg1,
     .pimg2,
     .pimg3,
     .pimg4,
@@ -233,11 +236,8 @@ nav a#openup {
 
 @media only screen and (min-device-width: 736px) and (max-device-width: 1024px) {
   .pimg1 video {
-    width: 100%;
-    height: auto;
+    width: auto;
   }
-
-  .pimg1,
   .pimg2,
   .pimg3,
   .pimg4,
