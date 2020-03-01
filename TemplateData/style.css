@@ -234,7 +234,7 @@ nav a#openup {
   }
 }
 
-@media only screen and (min-device-width: 736px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 737px) and (max-device-width: 1024px) {
   .pimg1 video {
     width: auto;
   }
