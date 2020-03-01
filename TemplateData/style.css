@@ -166,7 +166,7 @@ nav a#openup {
 }
 
 
-  @media (max-width: 736px) {
+  @media (max-width: 530px) {
     .pimg1 video {
       display: none;
     }
@@ -234,7 +234,7 @@ nav a#openup {
   }
 }
 
-@media only screen and (min-device-width: 737px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 530px) and (max-device-width: 1024px) {
   .pimg1 video {
     width: auto;
   }
