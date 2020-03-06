@@ -129,6 +129,15 @@ nav a#openup {
   background-color: transparent;
 }
 
+@media (max-width: 500px) {
+   
+    .pimg1{
+        max-height: fit-content;
+    }
+    .pimg1 img {
+        width: 100%;
+        min-height: 750px;
+    }
 
   @media (max-width: 736px) {
    
