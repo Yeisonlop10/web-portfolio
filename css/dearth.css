@@ -132,17 +132,17 @@ nav a#openup {
 @media (max-width: 500px) {
    
     .pimg1{
-        max-height: fit-content;
+        min-height: fit-content;
     }
     .pimg1 img {
         width: 100%;
-        min-height: 750px;
+        min-height: 400px;
     }
 }
   @media (max-width: 736px) {
    
     .pimg1{
-        max-height: fit-content;
+        
     }
     .pimg1 img {
         width: 100%;
@@ -206,9 +206,19 @@ nav a#openup {
 }
 
 @media (min-width: 736px) {
-       
+    
+    .pimg1{
+        min-height: fit-content;
+    }
     .pimg1 img {
         width: 100%;
         min-height: 100%
     }
+
+    .ptext{
+        position: absolute;
+        top: 80%;
+        width: 100%;
+        font-size: large;
+      }
 }
