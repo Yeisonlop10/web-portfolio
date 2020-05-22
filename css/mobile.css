@@ -57,13 +57,7 @@ nav a#openup {
     margin-top: 10;
     margin-bottom: 20;
 }
-.phone {
-    
-    background-image: url("../img/phone.png");
-    background-size: 250px;
-    background-repeat: no-repeat;
-    margin-left: 35%;
-}
+
 /*
 .pimg1 img{
     width: auto;
