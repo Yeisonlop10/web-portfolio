@@ -152,16 +152,23 @@ nav a#openup {
         width: 100%;
         min-height: 400px;
     }
+    .pimg1 video{
+      position: relative;
+      margin-top: 10;
+      margin-bottom: 20;
+  }
 }
   @media (max-width: 736px) {
    
-    .pimg1{
-        
-    }
     .pimg1 img {
         width: 100%;
         height: auto;
     }
+    .pimg1 video{
+      position: relative;
+      margin-top: 10;
+      margin-bottom: 20;
+  }
 
     .ptext{
       position: absolute;
