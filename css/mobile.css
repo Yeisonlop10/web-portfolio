@@ -153,7 +153,6 @@ nav a#openup {
         min-height: 400px;
     }
     .pimg1 video{
-      position: relative;
       margin-top: 10;
       margin-bottom: 20;
   }
@@ -165,7 +164,6 @@ nav a#openup {
         height: auto;
     }
     .pimg1 video{
-      position: relative;
       margin-top: 10;
       margin-bottom: 20;
   }
